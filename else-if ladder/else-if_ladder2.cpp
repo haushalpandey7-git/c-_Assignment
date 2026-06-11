@@ -1,0 +1,27 @@
+//grade calculation
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int a;
+    cout<< "Enter marks";
+    cin>> a;
+    if(a>=90){
+        cout<< "Grade= A";
+    }
+    else if(a>=80){
+        cout<< "Grade= B";
+    }
+    else if(a>=70){
+        cout<< "Grade= C";
+    }
+    else if (a>=40){
+        cout<< "Grade= D";
+    }
+    else{
+        cout<< "Fail";
+    }
+
+    return 0;
+}
